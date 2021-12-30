@@ -1,0 +1,149 @@
+@charset "UTF-8";
+
+body {
+	margin: 0 ;
+}
+
+html, body {
+	height: 100%;
+}
+
+
+.container {
+	box-sizing: border-box;
+	width: 100%;
+	height: 100%;
+}
+
+.data {
+	text-align: center;
+	max-height: calc(100% - 240px);
+	overflow-y: scroll;
+}
+
+#tbl {
+	width: 100%;
+	border-collapse: collapse;
+	margin-top: 10px;
+	max-height: calc(100% - 240px);
+	overflow-y: scroll;
+}
+
+#tbl tr>td, #tbl tr>th {
+	height: 50px;
+	padding: 8px 15px;
+}
+
+#tbl tr>th, #tbl tr>td {
+	border: 1px solid #666;
+}
+/* 增删改查按钮 */
+
+
+.op>ul {
+	list-style-type: none;
+	padding: 0;
+	/* margin: 10px 0; */
+	margin:0;
+}
+
+.op>ul>li {
+	display: inline-block;
+}
+
+.op>ul>li>a {
+	text-decoration: none;
+	padding: 5px 20px;
+	color: white;
+	background-color: #0099CC;
+	display: inline-block;
+	margin-left: 0;
+}
+
+.ajax-del-btn {
+	background-color: #FF6600;
+}
+/* 页面大小选择区 */
+.paginate {
+	user-select: none;
+	position: fixed;
+	bottom: 5px;
+	right: 0px;
+	background-color: #fff;
+	margin-right: 18px;
+}
+
+.paginate>* {
+	display: inline-block;
+}
+
+.paginate>span {
+	padding: 0 8px;
+	border: 1px solid #666;
+	padding: 4 10px;
+	user-select: none;
+	cursor: pointer;
+}
+
+.paginate span>a {
+	text-decoration: none;
+	color: black;
+	user-select: none;
+	padding:5px 8px;
+}
+
+.paginate ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	user-select: none;
+}
+
+.paginate ul>li {
+	display: inline-block;
+	margin: 0;
+	padding: 0 5px;
+	user-select: none;
+}
+
+.current {
+	text-decoration: underline;
+}
+
+.paginate ul>li>a {
+	text-decoration: none;
+	color: black;
+	padding:0 5px;
+}
+
+.paginate>select {
+	padding: 0 8px;
+	font-size: 18px;
+}
+/*  搜索区样式*/
+
+
+fieldset {
+	margin-bottom: 15px;
+}
+.search-form {
+	margin-bottom:15px;
+}
+
+
+.search-form>form div {
+	display: inline-block;
+	width: calc(( 100% - 40px)/5);
+	margin-bottom: 10px;
+	text-align: right;
+}
+
+.search-form>form div:first-child {
+	margin: 0;
+}
+
+.search-form>form div>input {
+	display: inline-block;
+	width: 220px;
+	height: 40px;
+}

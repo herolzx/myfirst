@@ -1,0 +1,46 @@
+@charset "UTF-8";
+.ware-return{
+	margin-bottom: 10px;
+}
+.ware-return>div>label{
+	display: inline-block;
+	text-align: right;
+}
+.ware-return>div>button{
+	width: 80px;
+	height: 35px;
+}
+.ware-form>div>input[type=text]{
+width:400px;
+height:50px;
+/* 轮廓 */
+outline:none;
+border:1px  solid #ccc;
+font-size: 16px;
+}
+.ware-form>div{
+	margin-bottom: 10px;
+}
+.ware-form>div>label{
+	display: inline-block;
+	width: 100px;
+	text-align: right;
+}
+.ware-form>div.sfyy>div{
+	display: inline-block;
+}
+/* .ware-form>div.sfyy>div>*{
+	vertical-align: middle;
+	垂直居中
+} */
+.ware-form>div.sfyy>div>input{
+	width: 16px;
+	height: 16px;
+}
+.ware-form>div>button{
+	width: 120px;
+	height: 35px;
+}
+fieldset{
+	border:1px  solid #ccc;
+}
